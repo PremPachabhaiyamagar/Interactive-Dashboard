@@ -18,9 +18,7 @@ const DevList: React.FC<IDevList> = ({ item }) => {
   return (
     <>
       <div className="w-full flex gap-2 items-center">
-        <div
-          className={`h-10 w-10 rounded-full bg-[url("../../assets/image1.jpeg")] bg-center bg-cover`}
-        >
+        <div className={`h-10 w-10 rounded-full  bg-center bg-cover`}>
           <img
             src={""}
             className="rounded-full max-h-10 min-w-full"
